@@ -1,4 +1,4 @@
-import { UserRepository } from '@repo/userRepository';
+import { UserRepository } from '@repo/userRepositorys';
 
 export class LoginService {
     private userRepo: UserRepository;

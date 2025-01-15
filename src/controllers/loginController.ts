@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { LoginService } from '@services/loginService';
-import { UserRepository } from '@repo/userRepository';
+import { UserRepository } from '@repo/userRepositorys';
 
 const userRepo = new UserRepository();
 const loginService = new LoginService(userRepo);

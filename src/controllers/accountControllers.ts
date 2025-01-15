@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { AccountService } from '@services/accountService';
-import { AccountRepository } from '@repo/accountRepository';
+import { AccountRepository } from '@repo/accountRepositorys';
 
 const accountRepo = new AccountRepository();
 const accountService = new AccountService(accountRepo);

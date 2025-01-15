@@ -1,4 +1,4 @@
-import { AccountRepository } from '@repo/accountRepository';
+import { AccountRepository } from '@repo/accountRepositorys';
 
 export class AccountService {
     private accountRepo: AccountRepository;
